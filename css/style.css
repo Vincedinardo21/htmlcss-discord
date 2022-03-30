@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
 /* Header */
 header {
     height: 100px;
@@ -56,13 +64,24 @@ a {
 
 
 /* Jumbotron */
-#jumbotron .container {
-    width: 45%;
-    height: 85vh;
-    /* Debug */
-    background-color: red;
+#jumbotron {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
+#jumbotron .container {
+    position: relative;
+    width: 45%;
+    height: 85vh;
+    bottom: 0;
+    /* Debug */
+    /* background-color: red; */
+}
+
+.bloccotext {
+    position: absolute;
+    bottom: 50%;
+}
 
 /* Main */
 .container {
@@ -70,8 +89,9 @@ a {
     height: 100vh;
     margin: 0 auto;
     text-align: center;
+    color: white;
     /* Debug */
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 /* Footer */
