@@ -83,6 +83,14 @@ a {
     bottom: 50%;
 }
 
+.bloccotext a {
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
 /* Main */
 .container {
     width: 80%;
