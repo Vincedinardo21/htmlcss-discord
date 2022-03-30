@@ -1,0 +1,40 @@
+/* Regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    height: 100px;
+    background-color: #3161e0;
+}
+
+
+
+/* Jumbotron */
+#jumbotron .container {
+    width: 45%;
+    height: 85vh;
+    /* Debug */
+    background-color: red;
+}
+
+/* Main */
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    /* Debug */
+    background-color: yellow;
+}
+
+/* Footer */
+footer section div {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    /* Debug */
+    background-color: green;  
+}
