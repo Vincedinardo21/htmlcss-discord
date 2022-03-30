@@ -11,6 +11,37 @@ header {
     background-color: #3161e0;
 }
 
+header .container {
+    width: 80%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+header .container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header img {
+    float: left;
+}
+
+/* Nav list */
+header ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
 
 
 /* Jumbotron */
@@ -27,7 +58,7 @@ header {
     height: 100vh;
     margin: 0 auto;
     /* Debug */
-    background-color: yellow;
+    background-color: brown;
 }
 
 /* Footer */
